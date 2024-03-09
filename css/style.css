@@ -91,7 +91,7 @@ a {
 }
 @media (max-width: 776px) {
   .container-small {
-    max-width: calc(100% - 2em);
+    max-width: calc(100% - 1em);
   }
 }
 
@@ -221,7 +221,7 @@ a {
 }
 @media (max-width: 576px) {
   .main-section .content-container .name-text h3 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 }
 .main-section .content-container .name-text p {
