@@ -194,6 +194,7 @@ a {
 @media (max-width: 576px) {
   .main-section .content-container h1 {
     font-size: 3rem;
+    margin-bottom: 2em !important;
   }
 }
 .main-section .content-container img {
