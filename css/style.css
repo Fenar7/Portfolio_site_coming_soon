@@ -143,6 +143,27 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.main-section .copy-right {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-section .copy-right p {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .main-section .copy-right p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .main-section .copy-right p {
+    font-size: 0.7rem;
+  }
+}
 .main-section .content-container {
   position: absolute;
   top: 50%;
